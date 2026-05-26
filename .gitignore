@@ -1,0 +1,11 @@
+# Local configuration containing sensitive passwords
+config.json
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Operating System files
+.DS_Store
+Thumbs.db
