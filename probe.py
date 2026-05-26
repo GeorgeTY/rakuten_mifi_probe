@@ -18,7 +18,9 @@ import time
 import os
 import sys
 
-CONFIG_FILE = "config.json"
+# Locate config.json relative to the script's own directory
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+CONFIG_FILE = os.path.join(SCRIPT_DIR, "config.json")
 
 
 def setup_config():
