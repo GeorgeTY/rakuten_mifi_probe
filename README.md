@@ -1,6 +1,10 @@
 # Rakuten MiFi Signal Probe
 
-A zero-dependency, lightweight command-line utility written in Python to monitor signal strength metrics and real-time network speeds for **Rakuten Mobile 4G MiFi routers** (such as Rakuten WiFi Pocket and similar OEM devices).
+A zero-dependency, lightweight command-line utility written in Python to monitor signal strength metrics and real-time network speeds for Rakuten Mobile 4G MiFi routers in real-time.
+
+> [!IMPORTANT]
+> **Tested Device**: Only tested on **Rakuten WiFi Pocket Platinum (4G)**.
+> **Purpose**: This script is intended solely for convenience to help users easily find an optimal physical location for better cellular signal reception.
 
 It runs directly in your terminal, making it ideal for running on laptops, NAS devices, Raspberry Pis, or any home server to help you locate the best spot for maximum cellular reception.
 
@@ -79,5 +83,7 @@ Press `Ctrl+C` at any time to quit safely.
 
 ---
 
-## Disclaimer
-This project is an unofficial community tool. It is not affiliated with, authorized, or endorsed by Rakuten Mobile or any hardware manufacturer.
+## License & Disclaimer
+This project is licensed under the [MIT License](LICENSE).
+
+**Disclaimer**: This project is an unofficial community tool. It is not affiliated with, authorized, or endorsed by Rakuten Mobile or any hardware manufacturer. It was only tested on **Rakuten WiFi Pocket Platinum (4G)** and is designed solely to assist users in locating a better cellular signal. Use it at your own risk.

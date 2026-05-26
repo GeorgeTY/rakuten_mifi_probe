@@ -3,6 +3,11 @@
 Rakuten MiFi Signal Probe
 A lightweight Python script to monitor signal parameters and network speed 
 for Rakuten Mobile 4G MiFi routers in real-time.
+
+Disclaimer:
+Only tested on Rakuten WiFi Pocket Platinum (4G).
+This script is intended solely for convenience to help users easily find 
+an optimal physical location for better cellular signal reception.
 """
 
 import urllib.request
