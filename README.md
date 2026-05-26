@@ -1,5 +1,7 @@
 # Rakuten MiFi Signal Probe
 
+[日本語版はこちら (Japanese Edition)](README.ja.md)
+
 A zero-dependency, lightweight command-line utility written in Python to monitor signal strength metrics and real-time network speeds for Rakuten Mobile 4G MiFi routers in real-time.
 
 > [!IMPORTANT]
